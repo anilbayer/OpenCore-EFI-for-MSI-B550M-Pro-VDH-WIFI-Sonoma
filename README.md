@@ -1,0 +1,1 @@
+# OpenCore-EFI-for-MSI-B550M-Pro-VDH-WIFI-Sonoma

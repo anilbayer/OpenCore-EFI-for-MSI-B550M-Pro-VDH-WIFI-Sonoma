@@ -8,16 +8,16 @@
 
 | **Component** | **Model** |
 | ------------- | --------- |
-| CPU | AMD Ryzen 3 3100 @ 3.6GHz |
+| CPU | AMD Ryzen 5 5600X @ 3.7GHz |
 | Motherboard | MSI B550M-Pro VDH WIFI |
-| RAM | 8GB Corsair Vengeance LPX 3000mhz C16|
+| RAM | 2x8GB Apacer Panther Black DDR4 3200mhz C16|
 | Audio Chipset | Realtek® ALC892/ALC897 Codec |
-| GPU | Radeon™ RX 480 G1 Gaming 8G |
-| WiFi & Bluetooth | Intel® Dual Band Wireless-AC 3168 |
+| GPU | AMD Radeon™ RX 6750 XT 12GB |
+| WiFi & Bluetooth | Fenvi T919 PCI-E WiFi Adapter |
 | Lan |  Realtek® 8111HN Gigabit LAN controller |
-| OS Disk | Patriot 480GB SSD |
+| OS Disk | Crucial CT2000P3PSSD8 P3 Plus 2TB PCIe4.0 NVMe M.2 |
 
-**macOS version**: 11.1 (19H2)  
+**macOS version**: 14.1.1 (23B81)  
 
 **OpenCore version**: 0.6.4  
 
@@ -33,13 +33,13 @@
 - Input works fine with Logitech G430 Genuine USB Adaptor.
 
 ## Known issues
-- Airdrop and Airplay.
 - 3.5mm Jack microphone. (Tested no joy)
 
 
 ## Important
-- It was hard to make Ethernet work. I had to go to info.plist file inside kexy and change "OSBundleRequired" to Root. The value should be System-Root by default. It did not work with default value. So, I changed it to Root. Now works perfect. 
-- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist. 
+- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist.
+- Fenvi T919 Network Card supports Airdrop, Bluetooth, Wifi and all continuity features.
+- 
 
 How to: 
 - Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as model select **iMacPro1,1**.
@@ -48,3 +48,4 @@ How to:
 ## Credits
 - Thanx to Hackintosh & Dortania Teams for all information
 
+![About](MSI-B550PROVDH-2.png)

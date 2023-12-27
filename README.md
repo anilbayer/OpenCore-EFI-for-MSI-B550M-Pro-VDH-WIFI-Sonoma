@@ -19,7 +19,7 @@
 
 **macOS version**: 14.1.1 (23B81)  
 
-**OpenCore version**: 0.6.4  
+**OpenCore version**: 0.9.4  
 
 **SMBIOS**:  iMacPro1,1
 
@@ -30,16 +30,13 @@
 - Wi-Fi
 - Bluetooth
 - iMessage, FaceTime
-- Input works fine with Logitech G430 Genuine USB Adaptor.
 
 ## Known issues
 - 3.5mm Jack microphone. (Tested no joy)
 
-
 ## Important
 - Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist.
 - Fenvi T919 Network Card supports Airdrop, Bluetooth, Wifi and all continuity features.
-- 
 
 How to: 
 - Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as model select **iMacPro1,1**.
@@ -48,4 +45,12 @@ How to:
 ## Credits
 - Thanx to Hackintosh & Dortania Teams for all information
 
-![About](MSI-B550PROVDH-2.png)
+  
+![About](Images/MSI-B550PROVDH-6.png)
+
+---------------------------
+
+![About](Images/MSI-B550PROVDH-2.png)
+![About](Images/MSI-B550PROVDH-3.png)
+![About](Images/MSI-B550PROVDH-4.png)
+![About](Images/MSI-B550PROVDH-5.png)
